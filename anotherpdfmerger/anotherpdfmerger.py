@@ -7,7 +7,7 @@ import time
 import PyPDF2
 
 NAME = "anotherpdfmerger"
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 DESCRIPTION = "merge PDFs and generate bookmarks"
 
 def main():
@@ -47,7 +47,6 @@ def parse_runtime_args():
             help="path to source PDFs")
     parser.add_argument(
             "destination",
-            nargs='?',
             type=str,
             default=time.strftime("%Y%m%d_%H%M_%S_merge.pdf"),
             help="path to destination PDF")
