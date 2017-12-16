@@ -7,7 +7,7 @@ import time
 import PyPDF2
 
 NAME = "anotherpdfmerger"
-VERSION = "0.0.0"
+VERSION = "0.0.1"
 DESCRIPTION = "merge PDFs and generate bookmarks"
 
 def main():
