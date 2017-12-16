@@ -22,4 +22,7 @@ setup(
     entry_points={
         'console_scripts': ['anotherpdfmerger= anotherpdfmerger.anotherpdfmerger:main'],
     },
+    install_requires=[
+        'PyPDF2',
+    ],
 )
