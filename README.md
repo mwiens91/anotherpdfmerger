@@ -10,5 +10,5 @@ formatting I wanted. So here's another one.
 Install this with
 
 ```
-sudo pip3 install anotherpdfmerger
+pip3 install anotherpdfmerger
 ```
