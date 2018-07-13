@@ -1,5 +1,5 @@
 from setuptools import setup
-from anotherpdfmerger.anotherpdfmerger import DESCRIPTION, NAME, VERSION
+from anotherpdfmerger.version import DESCRIPTION, NAME, VERSION
 
 setup(
     name=NAME,

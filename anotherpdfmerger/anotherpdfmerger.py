@@ -5,10 +5,7 @@ import argparse
 import os
 import time
 import PyPDF2
-
-NAME = "anotherpdfmerger"
-VERSION = "0.0.2"
-DESCRIPTION = "merge PDFs and generate bookmarks"
+from anotherpdfmerger.version import NAME, VERSION, DESCRIPTION
 
 def main():
     """Main function for anotherpdfmerger."""
@@ -56,8 +53,3 @@ def parse_runtime_args():
             version="%(prog)s " + VERSION)
 
     return parser.parse_args()
-
-
-if __name__ == "__main__":
-    # Run from the command line
-    main()
