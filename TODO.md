@@ -27,4 +27,4 @@ and this could even support fancy nested bookmarking like
 212 new_name_and_page
 ```
 
-where the indentation (whitespace) indicated the nested bookmarks.
+where the indentation (whitespace) indicates the nested bookmarks.
