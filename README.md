@@ -10,12 +10,10 @@ formatting I wanted. So here's another one.
 Install this with
 
 ```
-pip3 install anotherpdfmerger
+sudo pip3 install anotherpdfmerger
 ```
 
-(if you run the above using root, you'll get a nice `man` page)
-
-Or just run the `run_anotherpdfmerger.py` script directly.
+or just run the `run_anotherpdfmerger.py` script directly.
 
 Either way, if you want to merge `1.pdf`, `2.pdf`, and `3.pdf` into
 `combined.pdf`, run
