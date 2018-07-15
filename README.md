@@ -13,7 +13,8 @@ Install this with
 sudo pip3 install anotherpdfmerger
 ```
 
-or just run the `run_anotherpdfmerger.py` script directly.
+or just run the [`run_anotherpdfmerger.py`](run_anotherpdfmerger.py)
+script directly.
 
 Either way, if you want to merge `1.pdf`, `2.pdf`, and `3.pdf` into
 `combined.pdf`, run
