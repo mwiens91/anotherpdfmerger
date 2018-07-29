@@ -1,10 +1,17 @@
 from setuptools import setup
 from anotherpdfmerger.version import DESCRIPTION, NAME, VERSION
 
+
+# Parse readme to include in PyPI page
+with open('README.md') as f:
+    long_description = f.read()
+
 setup(
     name=NAME,
     version=VERSION,
     description=DESCRIPTION.capitalize(),
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     url='https://github.com/mwiens91/anotherpdfmerger',
     author='Matt Wiens',
     author_email='mwiens91@gmail.com',
