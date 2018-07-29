@@ -4,7 +4,7 @@ from anotherpdfmerger.version import DESCRIPTION, NAME, VERSION
 setup(
     name=NAME,
     version=VERSION,
-    description=DESCRIPTION,
+    description=DESCRIPTION.capitalize(),
     url='https://github.com/mwiens91/anotherpdfmerger',
     author='Matt Wiens',
     author_email='mwiens91@gmail.com',
