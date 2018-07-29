@@ -1,3 +1,5 @@
+[![PyPI](https://img.shields.io/pypi/v/anotherpdfmerger.svg)](https://pypi.org/project/anotherpdfmerger/)
+
 # anotherpdfmerger
 
 This is a small program to concatenate PDFs and add bookmarks where the
