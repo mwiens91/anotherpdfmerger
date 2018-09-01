@@ -1,5 +1,5 @@
 [![PyPI](https://img.shields.io/pypi/v/anotherpdfmerger.svg)](https://pypi.org/project/anotherpdfmerger/)
-![Python version](https://img.shields.io/badge/python-3-blue.svg)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/anotherpdfmerger.svg)](https://pypi.org/project/anotherpdfmerger/)
 
 # anotherpdfmerger
 

@@ -30,6 +30,10 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         'Operating System :: Unix',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3 :: Only',
     ],
     data_files=[('/usr/local/man/man1', ['anotherpdfmerger.1']),],
@@ -37,7 +41,7 @@ setup(
     entry_points={
         'console_scripts': ['anotherpdfmerger = anotherpdfmerger.anotherpdfmerger:main'],
     },
-    python_requires='>=3',
+    python_requires='>=3.5',
     install_requires=[
         'PyPDF2',
     ],
